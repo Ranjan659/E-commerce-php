@@ -1,0 +1,111 @@
+/* Global start*/
+*{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+body{
+  background:url(../img/bg.jpg) no-repeat no-repeat fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+/*Global End*/
+
+
+/*Resuable start*/
+a{
+  text-decoration: none;
+}
+
+li{
+  list-style: none;
+}
+/*Reuable end*/
+
+
+/*Form Start*/
+.container{
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin:auto;
+  border:none;
+}
+
+.logo {
+  display: block;
+  margin: auto;
+  width: 14vh;
+  cursor: pointer;
+  margin-bottom: 1vh;
+}
+
+.container h1{
+  text-align: center;
+  color: #ddd;
+  border-bottom: 0.2vh solid black;
+}
+
+.card{
+  width:70%;
+  background-color:transparent;
+  border: 0.5vh solid #373737;
+  box-shadow: 0.1vh 0.1vh #0bd6ea;
+  border-radius: 1vh;
+}
+
+.login-card{
+  width: 55%;
+}
+
+.form{
+  max-width: 50vw;
+  margin: auto;
+  padding: 0 1vw;
+  overflow: hidden;
+}
+
+.form-input{
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 2.5vh 0;
+  border: 0;
+  background: #111;
+  padding: 3vh 4vw;
+  outline: none;
+  color: #ddd;
+  border-radius: 2%;
+}
+
+.form-input:focus{
+  box-shadow: 0 0 1vh 0.4vw #34495e;
+}
+
+textarea.form-input{
+  resize: none;
+  height: 19.4vh;
+}
+
+.form-btn{
+  border: 0;
+  background: #34495e;
+  color: #fff;
+  padding: 2vh 5vw;
+  border-radius: 2vw;
+  cursor: pointer;
+  display: block;
+  margin:auto;
+  margin-bottom:2vh ; 
+}
+
+.form-btn:hover{
+  background: #2980b9;
+}
+
+/*Form End*/
